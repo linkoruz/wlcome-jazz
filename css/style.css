@@ -1,0 +1,533 @@
+body{
+    background: rgb(221, 220, 205);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    border-top: 50px solid #000e88ec;
+    
+}
+
+
+
+.navbar-brand{
+    width: 100px;
+    border-radius: 500%;
+}
+
+
+
+
+
+
+
+
+
+.container .carousel img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.container .carousel{
+    margin-top: 35px;
+    /* box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.541);
+    border-radius: 20px; */
+}
+
+
+
+
+.test{
+    background: red;
+    padding: 25px;
+    border-radius: 500%;
+    font-size: 35px;
+}
+
+
+
+
+
+.container{
+    margin-top: 60px;
+    
+}
+
+
+
+.container-fluid .navbar-brand {
+    font-size: 45px;
+    color: #656565;
+}
+
+
+.container-fluid .collapse li{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.container-fluid .collapse .heder-nav-link{
+    font-size: 20px;
+    color: #656565;
+    transition: 0.5s;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    
+}
+
+
+.container-fluid .collapse .heder-nav-link:hover{
+    color: #fff !important;
+    background: #c90404c2;
+    border-radius: 5px;
+}
+
+
+
+/* slide end */
+/* *************************************** */
+
+
+/* photo show start */
+
+
+.shop{
+    padding: 8px 8px 25px 8px;
+    box-shadow:  0 0 15px 5px rgba(7, 0, 0, 0.411);
+    margin-bottom: 20px;
+}
+
+
+
+
+.shop_text-img{
+    width: 100%;
+    
+}
+
+
+.shop_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+
+
+.shop_text-title{
+    color: #656565;
+    font-size: 18px;
+    
+}
+
+
+
+.shop_text-ds{
+    font-size: 18px;
+    color: blue;
+}
+
+
+
+.shop_text-link{
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: rgb(121, 2, 2);
+    border-radius: 58px;
+}
+
+
+.shop_tex-icon{
+    color: white;
+    font-size: 27px;
+    
+}
+
+
+
+.slider-box{
+    box-shadow:  0 0 15px 5px #eeeeee;
+    border-top: 4px solid rgb(144, 1, 1);
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+
+.slider-box .carousel-indicators{
+    bottom: -52px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 17px 0;
+    box-shadow: 0 0 15px #eeeeee;
+}
+
+
+
+.carousel-indicators [data-bs-target]{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: red;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+
+
+
+.carousel-indicators2 .active{
+    background: blue;;
+}
+
+
+
+
+.carousel-inner{
+    padding: 0 13px 0 13px;
+}
+
+
+
+
+
+
+
+
+
+.sub{
+    background: #65656563;
+    margin-top: 120px;
+    align-items: center;
+    border-radius: 5px;
+    border-top: solid blue 4px;
+}
+
+
+
+
+
+
+
+.sub .crib{
+    text-align: center;
+}
+
+
+.sub .crib p{
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+
+
+.crib h4{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: bisque;
+}
+
+
+
+.sub .crib .input input{
+   display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    font-size: 20px;
+    border: solid 2px rgb(131, 131, 131);
+}
+
+
+
+.sub .crib .input button{
+    margin-bottom: 35px;
+    background: green;
+    padding: 15px;
+    border-radius: 3px;
+    color: white;
+    border: solid 1px green;
+    transition: 0.5s;
+   
+}
+
+
+
+.sub .crib .input button:hover{
+    background: white;
+    color: green;
+}
+
+
+
+.con{
+    background: bisque; 
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+
+.container .tel{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+.container .tel   a{
+    color: rgb(94, 94, 94);
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+
+.container .tel i{
+    color: white;
+    background: #2b2b2b;
+    border-radius: 500%;
+    padding: 10px;
+}
+
+
+footer .contact{
+    padding-left: 80px;
+    display: block;
+}
+
+
+
+
+.contact .face h4{
+    color: #a10808;
+}
+
+
+
+.contact .face p{
+    color: #656565;
+    padding-top: 10px;
+}
+
+
+
+.contact .face button{
+    border: solid green 2px;
+    border-radius: 4px;
+    padding: 10px;
+    color: blue;
+    transition: 0.5s;
+}
+
+
+
+.contact .face i{
+    color: #a10808;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+.contact .face button:hover{
+    color: rgb(6, 255, 6);
+    background: #656565;
+    border: solid 2px red;
+}
+
+
+
+
+
+footer .img-box{
+    padding-top: 15px;
+}   
+
+
+
+
+ footer .img-box img{
+     width: 50px;
+     height: 50px;
+     border-radius: 5px;
+     border: solid 3px red;
+ }
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit{
+     margin-right: 50px;
+     align-items: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit .icons{
+     display: flex;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit .icons i{
+     color: #a10808;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit h4{
+     color: rgb(0, 192, 192);
+ }
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit .a{
+     background: #65656575;
+     padding: 12px;
+     border-radius: 5px;
+ }
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit a{
+     line-height: 15px;
+     color: #fff;
+     text-decoration: none;
+     display: flex;
+ }
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit i{
+     font-size: 35px;
+     padding: 10px;
+     transition: 0.5s;
+ }
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit i:hover{
+     color: #fff;
+     background: #656565;
+     border-radius: 6px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ footer .col-lg-3 .from .twit p{
+     line-height: 35px;
+     color: #fff;
+     font-size: 18px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .div a{
+     color: antiquewhite;
+     text-decoration: none;
+     transition: 0.5s;
+     padding: 4px;
+     border-radius: 3px;
+ }
+ 
+ 
+ 
+ .div a:hover{
+     color: #a10808;
+     background: #fff;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .div{
+     background: #a10808;
+     padding: 20px;
+ }
+ 
+ 
+.div .info{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.div .info .copy{
+    margin: auto;
+}
+
+
+
+.div .info .about{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
